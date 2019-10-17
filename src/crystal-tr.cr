@@ -1,7 +1,7 @@
 require "kemal"
 
 get "/" do
-  "Merhaba Crystal Turkiye!"
+  render "src/views/index.ecr"
 end
 
 Kemal.run
