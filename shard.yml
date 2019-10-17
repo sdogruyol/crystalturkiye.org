@@ -1,0 +1,13 @@
+name: crystal-tr
+version: 0.1.0
+
+authors:
+  - sdogruyol <dogruyolserdar@gmail.com>
+
+targets:
+  crystal-tr:
+    main: src/crystal-tr.cr
+
+crystal: 0.31.0
+
+license: MIT
