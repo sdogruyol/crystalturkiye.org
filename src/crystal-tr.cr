@@ -1,6 +1,7 @@
-# TODO: Write documentation for `Crystal::Tr`
-module Crystal::Tr
-  VERSION = "0.1.0"
+require "kemal"
 
-  # TODO: Put your code here
+get "/" do
+  "Merhaba Crystal Turkiye!"
 end
+
+Kemal.run
