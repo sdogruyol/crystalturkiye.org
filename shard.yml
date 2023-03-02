@@ -12,6 +12,6 @@ targets:
   crystal-tr:
     main: src/crystal-tr.cr
 
-crystal: 0.31.0
+crystal: 1.0.0
 
 license: MIT
